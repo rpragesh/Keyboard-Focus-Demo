@@ -13,8 +13,8 @@ export class HomePage {
 
   ionViewWillEnter() {
     setTimeout(() => {
-      this.nativeKeyboard.show();
       this.myInput.setFocus();
+      this.nativeKeyboard.show();
     }, 800);
   }
 }
